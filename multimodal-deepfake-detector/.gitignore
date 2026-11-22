@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+ENV/
+
+# Frontend dependencies and build output
+node_modules/
+frontend/dist/
+
+# Secrets
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Model weights (download separately)
+weights/*.pth
+weights/*.pt
+weights/*.bin
+
+# Cache database
+cache/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Third-party repos
+third_party/
+
+# Jupyter
+*.ipynb_checkpoints/
